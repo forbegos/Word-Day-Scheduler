@@ -1,6 +1,10 @@
 // Declarations
 var rowElement = $(".time-block");
+var textAreaEl = $("textarea");
 
+console.log(rowElement.children("textarea").get(0));
+console.log(rowElement.children("textarea").get(1));
+console.log(rowElement.children("textarea").get(2));
 // Declare array of objects (time and task description) and populate
 var tasks = new Array(9);
 for (let i = 0; i < tasks.length; i += 1) {
